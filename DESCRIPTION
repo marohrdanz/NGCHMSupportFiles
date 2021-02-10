@@ -1,7 +1,9 @@
 Package: ShaidyMapGenJar
 Title: ShaidyMapGen.jar file for building NGCHMs
 Version: 0.0.9
-Author: Mary A Rohrdanz <marohrdanz@mdanderson.org>
+Author: Mark Stucky
+        Mike Ryan
+        Chris Wakefield
         Bradley M Broom <bmbroom@mdanderson.org>
 Maintainer: Mary A Rohrdanz <marohrdanz@mdanderson.org>
 Description: This package contains the ShaidyMapGen.jar file needed for building NGCHMs
