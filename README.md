@@ -8,8 +8,7 @@ is set to the path of the ShaidyMapGen.jar file in this package.
 
 The source code for this ShaidyMapGen.jar file is available
 in the [NG-CHM](https://github.com/MD-Anderson-Bioinformatics/NG-CHM) GitHub project.
-This jar file was compiled for java 15.0.1, using the ant build file from the NG-CHM project: 
-[build shaidyRmapgen.xml](https://github.com/MD-Anderson-Bioinformatics/NG-CHM/blob/master/NGCHM/build_shaidyRmapgen.xml).
-
-
+This jar file was compiled for java 8, using the ant build file from the NG-CHM project: 
+[build shaidyRmapgen.xml](https://github.com/MD-Anderson-Bioinformatics/NG-CHM/blob/master/NGCHM/build_shaidyRmapgen.xml),
+but with the javac target changes to "1.8".
 
