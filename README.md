@@ -3,6 +3,12 @@
 This package contains support files for 
 the [NGCHM-R package](https://github.com/MD-Anderson-Bioinformatics/NGCHM-R). 
 
+Installation:
+
+```
+remotes::install_github('MD-Anderson-Bioinformatics/NGCHMSupportFiles', ref='main')
+```
+
 Included files:
 
 **ShaidyMapGen.jar**
