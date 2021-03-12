@@ -1,12 +1,12 @@
-Package: ShaidyMapGenJar
-Title: ShaidyMapGen.jar file for building NGCHMs
-Version: 0.0.9
+Package: NGCHMSupportFiles
+Title: Support files for building NG-CHMs
+Version: 1.0.0
 Author: Mark Stucky
         Mike Ryan
         Chris Wakefield
         Bradley M Broom <bmbroom@mdanderson.org>
 Maintainer: Mary A Rohrdanz <marohrdanz@mdanderson.org>
-Description: This package contains the ShaidyMapGen.jar file needed for building NGCHMs
+Description: This package contains support fiels needed for building NGCHMs
 License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
