@@ -1,12 +1,13 @@
 Package: NGCHMSupportFiles
 Title: Support files for building NG-CHMs
-Version: 1.0.0
+Version: 2.20.0
 Author: Mark Stucky
         Mike Ryan
         Chris Wakefield
         Bradley M Broom <bmbroom@mdanderson.org>
 Maintainer: Mary A Rohrdanz <marohrdanz@mdanderson.org>
-Description: This package contains support fiels needed for building NGCHMs
+Description: This package contains support fiels needed for building NGCHMs. 
+             The version number matches the NGCHM viewer release version number.
 License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
