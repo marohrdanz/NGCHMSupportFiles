@@ -6,7 +6,10 @@
 .onLoad <- function(libname, pkgname) {
 	Sys.setenv('SHAIDYMAPGEN' = system.file('java','ShaidyMapGen.jar', package='NGCHMSupportFiles'))
 	Sys.setenv('NGCHMWIDGETPATH' = system.file('js','ngchmWidget-min.js', package='NGCHMSupportFiles'))
-	message(paste('Set environment variable SHAIDYMAPGEN to ', Sys.getenv('SHAIDYMAPGEN'),sep=''))
-	message(paste('Set environment variable NGCHMWIDGETPATH to ', Sys.getenv('NGCHMWIDGETPATH'),sep=''))
-}
+};
+
+.onAttach <- function(libname, pkgname) {
+	packageStartupMessage(paste('Environment variable SHAIDYMAPGEN set to ', Sys.getenv('SHAIDYMAPGEN'),sep=''))
+	packageStartupMessage(paste('Environment variable NGCHMWIDGETPATH set to ', Sys.getenv('NGCHMWIDGETPATH'),sep=''))
+};
 
