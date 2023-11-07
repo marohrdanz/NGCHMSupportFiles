@@ -1,5 +1,7 @@
 # NGCHM Support Files
 
+![r-universe](https://marohrdanz.r-universe.dev/badges/NGCHMSupportFiles)
+
 This package contains support files for 
 the [NGCHM-R package](https://github.com/MD-Anderson-Bioinformatics/NGCHM-R). 
 
@@ -8,7 +10,8 @@ The version number in this package corresponds to the version number of the [NG-
 ## Installation:
 
 ```r
-remotes::install_github('MD-Anderson-Bioinformatics/NGCHMSupportFiles', ref='main')
+# Install NGCHMSupportFiles in R:
+install.packages('NGCHMSupportFiles', repos = c('https://marohrdanz.r-universe.dev', 'https://cloud.r-project.org'))
 ```
 
 ## Included files:
