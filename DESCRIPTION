@@ -5,7 +5,7 @@ Author: Mark Stucky
         Chris Wakefield
         Bradley M Broom <bmbroom@mdanderson.org>
 Maintainer: Mary A Rohrdanz <marohrdanz@mdanderson.org>
-Description: This package contains support fiels needed for building NGCHMs. 
+Description: This package contains support files needed for building NGCHMs. 
              The version number matches the NGCHM viewer release version number.
 License: GPL-3
 Encoding: UTF-8
