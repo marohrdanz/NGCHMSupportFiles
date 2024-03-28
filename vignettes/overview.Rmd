@@ -1,0 +1,33 @@
+---
+title: "NGCHM Support Files Package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{onLoad}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package provides two files required by the 'NGCHM' package to export Next-Generation Heat Maps (NG-CHMs):
+
+1. **ShaidyMapGen.jar**: A Java program used by `NGCHM::chmExportToFile()`, `NGCHM::chmExportToHTML()`, and
+   `NGCHM::chmExportToPDF()`.
+2. **ngchmWidget-min.js**: A JavaScript file used by `NGCHM::chmExportToHTML()`
+
+When loading 'NGCHMSupportFiles', the paths to these files are set in the environment variables:
+
+1. **SHAIDYMAPGEN**: The path to ShaidyMapGen.jar in NGCHMSupportFiles
+2. **NGCHMWIDGETPATH**: The path to ngchmWidget-min.js in NGCHMSupportFiles
+
+NGCHMSupportFiles can be installed from our R-Universe repository:
+
+```{r setup}
+install.packages('NGCHMSupportFiles', repos = c('https://md-anderson-bioinformatics.r-universe.dev', 'https://cloud.r-project.org'))
+library(NGCHMSupportFiles)
+```
