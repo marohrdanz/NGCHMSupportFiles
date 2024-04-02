@@ -1,17 +1,18 @@
 
 #' Support Files for 'NGCHM' package
 #'
-#' These Support Files are made available to the 'NGCHM' package via environment variables
-#' set when this package loads. These files are required to export a Next-Generation Clustered Heat Map (NG-CHM)
-#' to a .ngchm or .html file.
-#'
-#' The two files provided by this package:
+#' Files provided by this package:
 #' \itemize{
-#' \item \code{ShaidyMapGen.jar} - Java program used to generate .ngchm files. Used by 'NGCHM' package functions \code{chmExportToFile()}, \code{chmExportToPDF()}, \code{chmExportToHTML()}.
-#' \item \code{ngchmWidget-min.js} - JavaScript library used to display .ngchm files in a web browser. Used by 'NGCHM' package function \code{chmExportToHTML()}.
+#' \item \code{ShaidyMapGen.jar} - Compiled Java code. Used by \code{NGCHM::chmExportToFile()}, \code{NGCHM::chmExportToHTML()}, \code{NGCHM::chmExportToPDF()} to produce .ngchm, .html, and .pdf files, respectively.
+#' \item \code{ngchmWidget-min.js} - JavaScript library used to display NG-CHMs in a web browser. Used by \code{NGCHM::chmExportToHTML()}.
 #' }
+#'
+#' These Support Files are made available to the 'NGCHM' package via environment variables, \code{SHAIDYMAPGEN}
+#' and \code{NGCHMWIDGETPATH}, which are
+#' set when this package loads. These files are required to export a Next-Generation Clustered Heat Map (NG-CHM)
+#' to a .ngchm, .html, or .pdf file.
 #'
 #' @name NGCHMSupportFiles-package
 #' @title Support Files for Building Next Generation Clustered Heat Maps (NG-CHMs)
-#' @docType package
+"_PACKAGE"
 NULL

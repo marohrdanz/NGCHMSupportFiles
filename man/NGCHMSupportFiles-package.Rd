@@ -2,19 +2,48 @@
 % Please edit documentation in R/NGCHMSupportFiles-package.R
 \docType{package}
 \name{NGCHMSupportFiles-package}
+\alias{NGCHMSupportFiles}
 \alias{NGCHMSupportFiles-package}
 \title{Support Files for Building Next Generation Clustered Heat Maps (NG-CHMs)}
 \description{
 Support Files for 'NGCHM' package
 }
 \details{
-These Support Files are made available to the 'NGCHM' package via environment variables
-set when this package loads. These files are required to export a Next-Generation Clustered Heat Map (NG-CHM)
-to a .ngchm or .html file.
-
-The two files provided by this package:
+Files provided by this package:
 \itemize{
-\item \code{ShaidyMapGen.jar} - Java program used to generate .ngchm files. Used by 'NGCHM' package functions \code{chmExportToFile()}, \code{chmExportToPDF()}, \code{chmExportToHTML()}.
-\item \code{ngchmWidget-min.js} - JavaScript library used to display .ngchm files in a web browser. Used by 'NGCHM' package function \code{chmExportToHTML()}.
+\item \code{ShaidyMapGen.jar} - Compiled Java code. Used by \code{NGCHM::chmExportToFile()}, \code{NGCHM::chmExportToHTML()}, \code{NGCHM::chmExportToPDF()} to produce .ngchm, .html, and .pdf files, respectively.
+\item \code{ngchmWidget-min.js} - JavaScript library used to display NG-CHMs in a web browser. Used by \code{NGCHM::chmExportToHTML()}.
 }
+
+These Support Files are made available to the 'NGCHM' package via environment variables, \code{SHAIDYMAPGEN}
+and \code{NGCHMWIDGETPATH}, which are
+set when this package loads. These files are required to export a Next-Generation Clustered Heat Map (NG-CHM)
+to a .ngchm, .html, or .pdf file.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/MD-Anderson-Bioinformatics/NGCHMSupportFiles}
+  \item \url{https://md-anderson-bioinformatics.r-universe.dev/NGCHMSupportFiles}
+}
+
+}
+\author{
+\strong{Maintainer}: Mary A Rohrdanz \email{marohrdanz@mdanderson.org} [contributor]
+
+Authors:
+\itemize{
+  \item Bradley M Broom \email{bmbroom@mdanderson.org} (\href{https://orcid.org/0000-0002-0915-3164}{ORCID})
+  \item Mark Stucky
+  \item Michael Ryan
+}
+
+Other contributors:
+\itemize{
+  \item Chris Wakefield \email{cwakefield@mdanderson.org} [contributor]
+  \item James Melott \email{jmmelott@mdanderson.org} [contributor]
+  \item Futa Ikeda [contributor]
+  \item MD Anderson Cancer Center [copyright holder]
+}
+
 }
