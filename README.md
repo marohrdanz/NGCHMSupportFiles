@@ -5,15 +5,15 @@ This package contains support files used by [NGCHM R package](https://github.com
 
 The version number in this package corresponds to the version number of the [NG-CHM](https://github.com/MD-Anderson-Bioinformatics/NG-CHM) viewer project.
 
-## Installation:
+## Installation
 
-This package can be installed from the [MD-Anderson-Bioinformatics R-Universe](https://md-anderson-bioinformatics.r-universe.dev/) repository.
+This package can be installed from the [MD-Anderson-Bioinformatics R-Universe](https://md-anderson-bioinformatics.r-universe.dev/packages) repository.
 
 ```r
 install.packages("NGCHMSupportFiles", repos = c("https://md-anderson-bioinformatics.r-universe.dev", "https://cran.r-project.org"))
 ```
 
-## Included files:
+## Included files
 
 1. **ShaidyMapGen.jar**: compiled java code used to export an NG-CHM to a file
 
