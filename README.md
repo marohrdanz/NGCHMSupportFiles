@@ -18,7 +18,7 @@ install.packages("NGCHMSupportFiles", repos = c("https://md-anderson-bioinformat
 1. **ShaidyMapGen.jar**: compiled java code used to export an NG-CHM to a file
 
    This jar file was compiled for java 11 by running `ant -f build_shaidyRmapgen.xml` (ant
-   build script is in the [NG-CHM Viewer project](https://github.com.MD-Anderson-Bioinformatics/NG-CHM)).
+   build script is in the [NG-CHM](https://github.com/MD-Anderson-Bioinformatics/NG-CHM) viewer project).
 
    When this package is loaded, the SHAIDYMAPGEN environment variable
    is set to the path of the ShaidyMapGen.jar file in this package.
@@ -26,7 +26,7 @@ install.packages("NGCHMSupportFiles", repos = c("https://md-anderson-bioinformat
 2. **ngchmWidget-min.js**: a javascript module required for embedding an NG-CHM into a webpage
 
    This file was obtained by running `ant -f build_ngchmApp.xml` (ant
-   build script is in the [NG-CHM Viewer project](https://github.com.MD-Anderson-Bioinformatics/NG-CHM)).
+   build script is in the [NG-CHM](https://github.com.MD-Anderson-Bioinformatics/NG-CHM) viewer project).
 
    When this package is loaded, the NGCHMWIDGETPATH environment variable is set to the path of the ngchmWidget-min.js file in this package.
 
