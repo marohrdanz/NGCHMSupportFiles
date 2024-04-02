@@ -2,22 +2,22 @@ Package: NGCHMSupportFiles
 Title: Support Files for Building Next Generation Clustered Heat Maps (NG-CHMs)
 Authors@R:
   c(person(given=c("Bradley", "M"), family="Broom", role=c("aut"), email="bmbroom@mdanderson.org", comment=c(ORCID="0000-0002-0915-3164")),
-    person(given=c("Mary", "A"), family="Rohrdanz", role=c("aut","cre"), email="marohrdanz@mdanderson.org"),
+    person(given=c("Mary", "A"), family="Rohrdanz", role=c("ctb","cre"), email="marohrdanz@mdanderson.org"),
     person(given="Chris", family="Wakefield", role=c("ctb"), email="cwakefield@mdanderson.org"),
     person(given="James", family="Melott", role=c("ctb"), email="jmmelott@mdanderson.org"),
+    person(given="Mark", family="Stucky", role=c("aut")),
+    person(given="Michael", family="Ryan", role=c("aut")),
+    person(given="Futa", family="Ikeda", role=c("ctb")),
     person(given="MD Anderson Cancer Center", role=c("cph")))
-Description: Support files needed for exporting Next-Generation Clustered Heat Maps (NG-CHMs)
-    to '.ngchm' and '.html' files (using 'NGCHM::chmExportToFile()' and 'NGCHM::chmExportToHTML()' respectively.
-    These support files are updated mostly independently from the NGCHM package, so they are
-    provided separately in this package to minimize disk usage.
-    The package provides two support files:
-    - ShaidyMapGen.jar, which is used by both functions above to export an NGCHM, and
-    - ngchmWidget-min.js, which is bundled with the NGCHM by 'NGCHM::chmExportToHTML()'.
-    The package version number matches the NGCHM viewer release version number from which
-    these files were built.
+Description: Support files required by the 'NGCHM' package to export Next-Generation Clustered Heat Maps (NG-CHMs) to .ngchm, HTML, and PDF files. These support files are updated mostly independently from the 'NGCHM' package, and are therefore provided separately.
 License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
-SystemRequirements: Java JDK (>= 8.0)
+RoxygenNote: 7.3.1
+SystemRequirements: Java JDK (>= 11)
 Version: 2.24.3
+URL: https://github.com/MD-Anderson-Bioinformatics/NGCHMSupportFiles, https://md-anderson-bioinformatics.r-universe.dev/NGCHMSupportFiles
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
