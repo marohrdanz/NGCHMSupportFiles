@@ -20,4 +20,3 @@ URL: https://github.com/MD-Anderson-Bioinformatics/NGCHMSupportFiles, https://md
 Suggests:
     knitr,
     rmarkdown
-VignetteBuilder: knitr
