@@ -20,4 +20,4 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-Version: 2.24.4
+Version: 2.24.1
